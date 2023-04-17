@@ -5,7 +5,7 @@
 echo "#########clang-tidy install###########"
 wget https://apt.llvm.org/llvm.sh
 chmod +x llvm.sh
-sh llvm.sh 14 -y
+bash llvm.sh 14 -y
 timeout 3
 rm llvm.sh
 echo "clang-tidy install"
