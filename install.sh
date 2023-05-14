@@ -9,5 +9,5 @@ bash llvm.sh 14 -y
 timeout 3
 rm llvm.sh
 echo "clang-tidy install"
-apt install clang-tidy
+apt install clang-tidy-14
 echo "finish"
